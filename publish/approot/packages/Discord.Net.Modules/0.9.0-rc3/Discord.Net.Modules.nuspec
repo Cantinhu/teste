@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Discord.Net.Modules</id>
+    <version>0.9.0-rc3</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>RogueException</authors>
+    <owners>RogueException</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/RogueException/Discord.Net</projectUrl>
+    <description>A Discord.Net extension adding basic plugin support.</description>
+    <tags>discord discordapp</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Discord.Net" version="0.9.0-rc3" />
+        <dependency id="Discord.Net.Commands" version="0.9.0-rc3" />
+      </group>
+      <group targetFramework=".NETPlatform5.4">
+        <dependency id="Discord.Net" version="0.9.0-rc3" />
+        <dependency id="Discord.Net.Commands" version="0.9.0-rc3" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

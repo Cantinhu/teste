@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Discord.Net</id>
+    <version>0.9.0-rc3</version>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>RogueException</authors>
+    <owners>RogueException</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/RogueException/Discord.Net</projectUrl>
+    <description>An unofficial .Net API wrapper for the Discord client.</description>
+    <tags>discord discordapp</tags>
+    <dependencies>
+      <group targetFramework=".NETPlatform5.4">
+        <dependency id="Newtonsoft.Json" version="8.0.1" />
+        <dependency id="Nito.AsyncEx" version="3.0.1" />
+        <dependency id="System.Collections" version="4.0.11-beta-23516" />
+        <dependency id="System.Collections.Concurrent" version="4.0.11-beta-23516" />
+        <dependency id="System.Dynamic.Runtime" version="4.0.11-beta-23516" />
+        <dependency id="System.IO.FileSystem" version="4.0.1-beta-23516" />
+        <dependency id="System.IO.Compression" version="4.1.0-beta-23516" />
+        <dependency id="System.Linq" version="4.0.1-beta-23516" />
+        <dependency id="System.Net.Http" version="4.0.1-beta-23516" />
+        <dependency id="System.Net.NameResolution" version="4.0.0-beta-23516" />
+        <dependency id="System.Net.Sockets" version="4.1.0-beta-23409" />
+        <dependency id="System.Net.Requests" version="4.0.11-beta-23516" />
+        <dependency id="System.Net.WebSockets.Client" version="4.0.0-beta-23516" />
+        <dependency id="System.Reflection" version="4.1.0-beta-23516" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.0.1-beta-23516" />
+        <dependency id="System.Runtime.InteropServices" version="4.0.21-beta-23516" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="4.1.0-beta-23516" />
+        <dependency id="System.Security.Cryptography.Algorithms" version="4.0.0-beta-23516" />
+        <dependency id="System.Text.RegularExpressions" version="4.0.11-beta-23516" />
+        <dependency id="System.Threading" version="4.0.11-beta-23516" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Newtonsoft.Json" version="8.0.1" />
+        <dependency id="Nito.AsyncEx" version="3.0.1" />
+        <dependency id="WebSocket4Net" version="0.14.1" />
+        <dependency id="RestSharp" version="105.2.3" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Threading.Tasks" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
